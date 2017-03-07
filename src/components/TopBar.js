@@ -91,8 +91,17 @@ class TopBar extends Component {
       )
 
     return (
-      <div style={{ height: 32, display: 'flex' }}>
-        <h3 style={{ marginLeft: 8, marginTop: 5 }}>
+      <div style={{ 
+          height: 32,
+          width: '100%',
+          display: 'flex',
+          position: 'fixed', 
+          top: 0, 
+          bottom:0 ,
+          background: "#2F3057",
+          zIndex: 9999,
+        }}>
+        <h3 style={{ marginLeft: 8, marginTop: 5, color: "#FFF" }}>
           {filename}
         </h3>
         <div style={{flex: 1}} />

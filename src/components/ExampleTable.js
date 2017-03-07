@@ -140,6 +140,9 @@ class ExampleTable extends Component {
           <ExampleEditor example={example} entityNames={entityNames}/>
         )}
         onChange={() => this.setState({ tableChangedAt: Date.now() })}
+        style={{
+          marginTop: 32
+        }}
       />
     )
   }
