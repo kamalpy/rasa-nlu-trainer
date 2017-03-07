@@ -98,7 +98,7 @@ class TopBar extends Component {
           position: 'fixed', 
           top: 0, 
           bottom:0 ,
-          background: "#2F3057",
+          background: "#A6ABDE",
           zIndex: 9999,
         }}>
         <h3 style={{ marginLeft: 8, marginTop: 5, color: "#FFF" }}>
